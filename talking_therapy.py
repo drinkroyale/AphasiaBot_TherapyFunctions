@@ -17,7 +17,7 @@ tagalog_phrases = {
 def recognize_speech():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Pakiusap, magsalita ka na...")
+        print("Magandang umaga! Ako si AphasiaBot! Tayo'y makipagusap!")
         audio = recognizer.listen(source)
 
     try:
